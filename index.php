@@ -64,16 +64,20 @@
 		
 		<div id="content">
 			
-			<p><input type="text" id="name" placeholder="Имя" /></p>
-			<p><input type="text" id="phone" placeholder="Телефон" /></p>
-			
-			<p>
-				<select id="city" placeholder="Город">
-					<option value=""></option>
-					<option value="spb">Санкт-Петербург</option>
-					<option value="moscow">Москва</option>
-				</select>
-			</p>
+			<form method="post" id="form" action="#">
+				
+				<p><input type="text" id="name" placeholder="Имя" /></p>
+				<p><input type="text" id="phone" placeholder="Телефон" /></p>
+				
+				<p>
+					<select id="city" placeholder="Город">
+						<option value=""></option>
+						<option value="spb">Санкт-Петербург</option>
+						<option value="moscow">Москва</option>
+					</select>
+				</p>
+				
+			</form>
 			
 		</div>
 		
